@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinergiya</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.css')}}">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">  
+            <a class="navbar-brand" href="">SNRG</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class ="collapse navbar-collapse" id="navbar"> 
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Contact </a>
+                    </li>
+                </ul>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+  <main>
+    <div class="container">
+        <div class="col" style="width: 80%;">
+            <h1>
+                В Узбекистане принимается закон об искусственном интеллекте. О чём в нем говорится?
+            </h1>
+            <h4>
+                Может быть введено требование маркировать продукты, созданные с помощью искусственного интеллекта, перед их размещением в СМИ или интернете.
+            </h4>
+            <img class="card-img-top" src="{{url_for('static', filename='img/image.png')}}" alt="news_image">
+            <p>
+                Законодательная палата Олий Мажлиса на заседании 15 апреля приняла законопроект, регулирующий использование технологий искусственного интеллекта (ИИ), в первом чтении. Об этом сообщила нижняя палата парламента.
+                Депутат Шахноза Холмахматова, презентовавшая законопроект, сообщила, что в мире растёт финансирование сферы искусственного интеллекта: в 2023 году эта отрасль получила 154 млрд долларов, в 2024 году этот показатель вырос в два раза, к 2030 году прогнозируется 10-кратный рост.
+                В январе президент США Дональд Трамп объявил о создании компании Stargate, которая будет инвестировать до 500 млрд долларов в искусственный интеллект (ИИ) в рамках нового партнёрства с OpenAI, Oracle и SoftBank.
+                Европейский союз намерен реализовать проект InvestAI стоимостью 200 млрд евро ($206 млрд), направленной на ускорение инвестиций в развитие искусственного интеллекта.
+            </p>
+        </div>
+    </div>
+  </main>
+    <!-- <script src="./source/js/popper.js"></script> -->
+    <script src="{{url_for('static', filename='js/bootstrap.js')}}"></script>
+    <!-- <script src="./source/js/jquery.js"></script> -->
+</body>
+</html>
