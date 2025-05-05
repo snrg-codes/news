@@ -4,7 +4,6 @@ from functions import get_news
 
 news = Flask(__name__)
 
-
 @news.route("/")
 def index():
     return render_template("18_04.html", news_list=news_list)
